@@ -8,15 +8,25 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 set(SOURCES
-  client/src/main.cpp
-  client/src/core/client.cpp
-  client/src/core/user.cpp
-  client/helper/pharser.cpp
+  src/main.cpp
+  src/core/app.cpp
+  src/core/user.cpp
+  src/utils/parser.cpp
 )
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 
 target_include_directories(${PROJECT_NAME} PRIVATE
-    client/src
-    vendor
+  src
+  vendor
+)
+
+target_precompile_headers(${PROJECT_NAME} PRIVATE
+  <vector>
+  <string>
+  <chrono>
+  <cstdint>
+  <fstream>
+  <iostream>
+  <string_view>
 )

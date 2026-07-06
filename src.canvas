@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"0a050513683379ad","x":-480,"y":-380,"width":250,"height":219,"type":"text","text":"Login\n-> Initialized User\n-> Authenticate User\n-> Return"},
+		{"id":"65e75f583650fc97","type":"text","text":"Initialized User\n-> Locate DB\n-> Read DB\n-> Push back DB\n-> Return","x":-480,"y":-120,"width":250,"height":219},
+		{"id":"5e0721f8ebc2e92b","x":-480,"y":-640,"width":250,"height":219,"color":"1","type":"text","text":"Client \n-> Login\n-> Start Menu\n-> Show Options\n"},
+		{"id":"4bb94ee1b569309c","type":"text","text":"Menu ( Home by default )\n-> Combat\n-> Mining\n-> Farming\n-> Fishing\n-> Misc.\n-> Profile\n","x":-180,"y":-640,"width":250,"height":219},
+		{"id":"bdc892f36b9e7b61","type":"text","text":"Combat\n-> \n-> \n","x":100,"y":-859,"width":250,"height":219},
+		{"id":"40c8b412ad459b5a","type":"text","text":"Mining\n-> \n-> \n","x":360,"y":-859,"width":250,"height":219},
+		{"id":"6c575e6cc68a1810","type":"text","text":"Farming\n-> Farm Mode ( V/H )\n-> Set Position \n-> Toggle : Profits calc.\n-> \n\n","x":620,"y":-859,"width":250,"height":219},
+		{"id":"1bff1a742f6feeed","type":"text","text":"Profile\n-> Detail ( Editable )\n-> Generate APIs ( Later )\n","x":620,"y":-380,"width":250,"height":219},
+		{"id":"af3d87b0008ff07d","type":"text","text":"Misc.\n-> Log-level\n-> Toggle : Time-stamp\n","x":360,"y":-380,"width":250,"height":219},
+		{"id":"960e079f5ae3e1f1","type":"text","text":"Fishing\n-> Inherit from fishing.py","x":100,"y":-380,"width":250,"height":219},
+		{"id":"ee6d2185defb5b63","type":"text","text":"Log","x":-796,"y":-409,"width":250,"height":219}
+	],
+	"edges":[
+		{"id":"ca5ed54c73d370db","fromNode":"0a050513683379ad","fromSide":"bottom","toNode":"65e75f583650fc97","toSide":"top"},
+		{"id":"0fa9322dc70f9770","fromNode":"5e0721f8ebc2e92b","fromSide":"bottom","toNode":"0a050513683379ad","toSide":"top"},
+		{"id":"34e89912e35f631e","fromNode":"5e0721f8ebc2e92b","fromSide":"right","toNode":"4bb94ee1b569309c","toSide":"left"},
+		{"id":"c89726bcfd3b1ec4","fromNode":"4bb94ee1b569309c","fromSide":"right","toNode":"af3d87b0008ff07d","toSide":"top"}
+	]
+}
