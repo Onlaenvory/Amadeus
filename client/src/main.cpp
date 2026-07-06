@@ -1,8 +1,8 @@
 #include "header.hpp"
-#include "core/utils.hpp"
+#include "core/client.hpp"
 #include "core/user.hpp"
+#include "log/log.hpp"
 
 int main() {
-  User a;
-  a.checkRuntime();
+  Client::start();
 }

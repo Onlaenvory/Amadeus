@@ -9,7 +9,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 set(SOURCES
   client/src/main.cpp
-  client/src/core/utils.cpp
+  client/src/core/client.cpp
   client/src/core/user.cpp
   client/helper/pharser.cpp
 )

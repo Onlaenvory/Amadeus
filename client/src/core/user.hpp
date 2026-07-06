@@ -7,6 +7,4 @@ class User
     std::string username;
     std::string password;
   public:
-    User() = default;
-    void checkRuntime();
 };

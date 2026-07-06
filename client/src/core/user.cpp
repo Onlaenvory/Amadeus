@@ -1,6 +1,2 @@
-#include "utils.hpp"
+#include "client.hpp"
 #include "user.hpp"
-
-void User::checkRuntime() {
-  Client::showRuntime();
-}
