@@ -2,4 +2,4 @@
 .clangd/
 build/
 .zed/
-UserLists/
+user_lists/
