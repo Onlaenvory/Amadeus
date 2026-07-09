@@ -1,5 +1,9 @@
 #pragma once
+#include "../../vendor/nlohmann/json.hpp"
+
+using json = nlohmann::json;
 
 namespace Client {
-  bool login();
+  json login();
+  void start();
 };

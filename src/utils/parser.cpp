@@ -10,7 +10,6 @@ using json = nlohmann::json;
 static json parse(std::string_view files){
   std::fstream file(files.data());
   json userData;
-
   if (!file.is_open()) return 0;
 
   file >> userData;

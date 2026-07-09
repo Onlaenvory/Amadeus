@@ -1,3 +1,4 @@
 {
-  "User 1": { "Username": "Idontcup", "Password": "123", "Token": "GL1" }
+  "Idontcup": { "Username": "Idontcup", "Password": "123", "Rank": "Default" },
+  "Sally": { "Username": "Sally", "Password": "111", "Rank": "MiggerGangstar" }
 }
