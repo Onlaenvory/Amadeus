@@ -1,7 +1,11 @@
+#include "core/auth.hpp"
 #include "core/app.hpp"
-#include "utils/parser.cpp"
 
 int main() {
- Client::start();
- return 0;
+  json user = login();
+
+  Client amadeus(user);
+
+  amadeus.start();
+  return 0;
 }

@@ -10,8 +10,8 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(SOURCES
   src/main.cpp
   src/core/app.cpp
-  src/core/user.cpp
-  src/utils/parser.cpp
+  src/core/auth.cpp
+  src/core/feature.cpp
 )
 
 add_executable(${PROJECT_NAME} ${SOURCES})
